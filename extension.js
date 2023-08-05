@@ -18,7 +18,7 @@ function activate(context) {
 function focusTerminal(index) {
 	const terminal = window.terminals[index]
 	if (terminal) {
-		terminal.show(false)
+		terminal.show()
 	}
 }
 
@@ -26,8 +26,8 @@ function hidePanel() {
 	window.activeTerminal.hide()
 }
 
-async function addTerminal() {
-	window.createTerminal().show(false)
+function addTerminal() {
+	window.createTerminal().show()
 }
 
 function removeTerminal() {
