@@ -3,6 +3,7 @@
   "displayName": "Terminal Control",
   "description": "Use shortcuts to control and focus your terminals",
   "version": "0.0.1",
+  "repository": "https://github.com/pcandido/terminal-control",
   "engines": {
     "vscode": "^1.81.0"
   },
