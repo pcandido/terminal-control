@@ -2,8 +2,11 @@
   "name": "terminal-control",
   "displayName": "Terminal Control",
   "description": "Use shortcuts to control and focus your terminals",
+  "publisher": "PauloCandido",
   "version": "0.0.1",
-  "repository": "https://github.com/pcandido/terminal-control",
+  "repository": {
+    "url": "https://github.com/pcandido/terminal-control"
+  },
   "license": "MIT",
   "engines": {
     "vscode": "^1.81.0"
